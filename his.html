@@ -36,22 +36,24 @@
 
    .zoom:hover{transform: scale(1.5); cursor:pointer;}
 
-    img:hover{animation: glowcolour 1.2s infinite alternate;}
-   @keyframes glowcolours
-        {
-    0% {box-shadow: 0 0 20px hotpink;}
-    25% {box-shadow: 0 0 20px skyblue;}
-    50% {box-shadow: 0 0 20px gold;}
-    75% {box-shadow: 0 0 20px violet;} 
-    100% {box-shadow: 0 0 20px red;}
-        }
+    img:hover {
+  animation: glowcolours 1.2s infinite alternate;
+}
+
+@keyframes glowcolours {
+  0% {box-shadow: 0 0 20px hotpink;}
+  25% {box-shadow: 0 0 20px skyblue;}
+  50% {box-shadow: 0 0 20px gold;}
+  75% {box-shadow: 0 0 20px violet;}
+  100% {box-shadow: 0 0 20px red;}
+}
    
   .blank-bg
    {animation: blinkbg 1s infinite alternate;
     padding: 3px 6px;}
   @keyframes blinkbg
    { 0% {background: yellow;}
-     100% {background:orange;}
+     100% {background: orange;}
    }
   
   </style>
